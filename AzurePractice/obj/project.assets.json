@@ -286,11 +286,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dilip\\source\\repos\\AzurePractice\\AzurePractice\\AzurePractice.csproj",
+      "projectUniqueName": "C:\\Users\\dilip\\source\\repos\\AAzure\\AzurePractice\\AzurePractice\\AzurePractice.csproj",
       "projectName": "AzurePractice",
-      "projectPath": "C:\\Users\\dilip\\source\\repos\\AzurePractice\\AzurePractice\\AzurePractice.csproj",
+      "projectPath": "C:\\Users\\dilip\\source\\repos\\AAzure\\AzurePractice\\AzurePractice\\AzurePractice.csproj",
       "packagesPath": "C:\\Users\\dilip\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dilip\\source\\repos\\AzurePractice\\AzurePractice\\obj\\",
+      "outputPath": "C:\\Users\\dilip\\source\\repos\\AAzure\\AzurePractice\\AzurePractice\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
