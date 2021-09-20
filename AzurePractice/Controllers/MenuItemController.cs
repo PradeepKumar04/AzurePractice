@@ -20,6 +20,7 @@ namespace AzurePractice.Controllers
             new MenuItem(){Id=4,Name="Pizza",Active=true,DateOfLaunch=DateTime.Now,Price=100.12,FreeDelivery=true},
 
         };
+
         [HttpGet("")]
         public IActionResult Index()
         {
