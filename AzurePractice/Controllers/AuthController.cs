@@ -14,7 +14,7 @@ namespace AzurePractice.Controllers
     [ApiController]
     public class AuthController : ControllerBase
     {
-        [HttpPost]
+        [HttpGet]
         public IActionResult AddUser()
         {
             string token = GenerateJSONWebToken();
