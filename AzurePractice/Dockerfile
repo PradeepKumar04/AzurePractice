@@ -7,9 +7,9 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 WORKDIR /src
-COPY ["AzurePractice/AzurePractice.csproj", "AzurePractice/"]
+COPY ["AzurePractice.csproj", "AzurePractice/"]
 RUN dotnet restore "AzurePractice/AzurePractice.csproj"
-COPY . .
+COPY . AzurePractice/
 WORKDIR "/src/AzurePractice"
 RUN dotnet build "AzurePractice.csproj" -c Release -o /app/build
 
